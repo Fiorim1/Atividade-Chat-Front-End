@@ -1,0 +1,19 @@
+/* CSS RESET - Explico ao vivo para que serve */
+*, /* Todos os elementos */
+*:after, /* Todos os elementos depois */
+*:before { /* Todos os elementos antes */
+  margin: 0; /* Margem para todos os elementos irá ser zero (genérico) */
+  padding: 0; /* Padding (preenchimento) para todos os elementos irá ser zero (genérico) */
+  /* box-sizing é uma propriedade CSS que determina como o tamanho total de um elemento é calculado */
+  box-sizing: border-box; /*Box-sizing:border-box; determina uma tamanho total de todos os elementos */
+                          /*incluindo sua largura e altura, preenchimento (padding) e borda (border). */
+  text-decoration: none; /* Decoração para todos os textos das páginas */
+}
+/* Estilizando o corpo da página (body) */
+body {
+/*font-size: 100%; no CSS define o tamanho da fonte como 100% do tamanho padrão do navegador */
+  font-size: 100%; /* Define o tamanho da fonte como 100% (cem por cento) */
+/* list-style-type: none; é uma propriedade CSS usada 
+para remover os marcadores padrão de listas (como as listas <ul> e <ol> em HTML) */
+  list-style-type: none; /* Remover os marcadores padrão da lista de todos os elementos UL LI */
+}
