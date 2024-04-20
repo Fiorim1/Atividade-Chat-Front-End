@@ -32,8 +32,4 @@ function sendMessage() {
     
     // Aqui irá fazer que a nova mensagem, vire o filho da div pai (chatContainer)
     chatContainer.appendChild(newMessage);
-    // Assim que o usuário envia a mensagem, o campo input é limpo
-    document.querySelector("#user-input").value = "";
   }
-
-  
