@@ -9,7 +9,6 @@ body {
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* para o js */
@@ -76,11 +75,11 @@ button {
   padding: 5px;
 }
 
-.suport1 h4 {
+.suport1 h4, .suport2 h4, .suport3 h4, .suporte4 h4 {
   margin: 5px 0 5px 0;
 }
 
-.suport1 p {
+.suport1 p, .suport2 p, .suport3 p, .suporte4 p {
   margin: 0 0 0 10px;
 }
 
@@ -97,44 +96,8 @@ button {
   border-radius: 10px;
 }
 
-.client1 h4 {
+.client1 h4, .client2 h4, .client3 h4 {
   margin: 5px 0 5px 0;
 }
 
 
-
-.suport2 h4 {
-  margin: 5px 0 5px 0;
-}
-
-.suport2 p {
-  margin: 0 0 0 10px;
-}
-
-.client3 h4 {
-  margin: 5px 0 5px 0;
-}
-
-
-
-.suport3 h4 {
-  margin: 5px 0 5px 0;
-}
-
-.suport3 p {
-  margin: 0 0 0 10px;
-}
-
-
-
-.suport4 h4 {
-  margin: 5px 0 5px 0;
-}
-
-.suport4 p {
-  margin: 0 0 0 10px;
-}
-
-.client3 h4 {
-  margin: 5px 0 5px 0;
-}
